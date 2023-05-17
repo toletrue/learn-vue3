@@ -1,8 +1,10 @@
 <template>
-	<label>
-		{{ label }}
-		<input v-model="value" type="text" />
-	</label>
+	<div>
+		<label>
+			{{ label }}
+			<input v-model="value" type="text" />
+		</label>
+	</div>
 </template>
 
 <script setup>
